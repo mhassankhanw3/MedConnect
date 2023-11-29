@@ -10,8 +10,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" data-theme="coffee">
+      <body className={`${inter.className} max-w-[80%] flex flex-col  justify-center mx-auto py-4`}>{children}</body>
     </html>
   )
 }
