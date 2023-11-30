@@ -29,14 +29,25 @@ export default function Navbar() {
                         </div>
                     </div>
                 </div>
-                <details className="dropdown dropdown-end">
-                    <summary className="m-1 btn">Profile</summary>
-                    <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                        <li><Link href="/">Item 1</Link></li>
-                        <li><Link href="/">Item 2</Link></li>
-                    </ul>
-                </details>
+                <Link href="/" className='btn btn-ghost bg-gray-100 text-gray-500'>Login</Link>
+
                 {/* </div> */}
+
+                {/* <div className="dropdown dropdown-end">
+                    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+                        <div className="w-10 rounded-full">
+                            <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                    </div>
+                    <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-32">
+                        <li>
+                            <Link href="/" className='py-2'>
+                                Sign In
+                            </Link>
+                        </li>
+                        <li><Link href="/" className='py-2'>Sign Up</Link></li>
+                    </ul>
+                </div> */}
 
                 {/* <div className="dropdown dropdown-end">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
